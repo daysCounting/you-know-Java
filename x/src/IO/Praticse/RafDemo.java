@@ -3,6 +3,8 @@ package IO.Praticse;
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
+import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class RafDemo {
 	public static void main(String[] args) throws IOException {
@@ -14,6 +16,8 @@ public class RafDemo {
 		File file = new File(demo, "raf.dat");
 		if (!file.exists()) {
 			file.createNewFile();
+		}else{
+			file.delete();
 		}
 		RandomAccessFile raf = new RandomAccessFile(file, "rw");
 
@@ -21,7 +25,20 @@ public class RafDemo {
 		raf.write('A');
 		System.out.println(raf.getFilePointer());
 		raf.write('B');
+		/// write 方法每次8位 int 总共32位
 		int i = 0x7fffffff;
-		
+		System.out.println(raf.length());
+		System.out.println(raf.getFilePointer());
+		String tr = "信x";
+		byte[] gbk = tr.getBytes("gbk");
+		raf.write(gbk);
+		System.out.println(raf.length());
+		raf.seek(0);
+		for (byte b : gbk) {
+			System.out.print(b);
+		}
+		byte[] bt = new byte[(int)raf.length()];
+		raf.read(bt);
+		System.out.println(Arrays.toString(bt));
 	}
 }

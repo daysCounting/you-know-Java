@@ -1,0 +1,13 @@
+package c06;
+import c06.B;
+public class A {
+	A(){}
+	
+}
+	class C extends A{
+		B xiaoB = new B();
+		
+	}
+public static void main(String[] args){
+	
+}
