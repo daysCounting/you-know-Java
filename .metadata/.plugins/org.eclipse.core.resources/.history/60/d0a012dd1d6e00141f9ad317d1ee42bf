@@ -1,0 +1,11 @@
+package collectionDemo;
+
+public class Student {
+	
+	private String name;
+	
+	private String className;
+	
+	private Set courses;
+	
+}

@@ -1,0 +1,30 @@
+package collectionDemo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListTest {
+	
+	public List coursesToSelected;
+	
+	public 
+	public ListTest() {
+		super();
+		this.coursesToSelected = new ArrayList();
+	}
+	
+	public void testList(){
+		
+		Course c1 = new Course("math", 1);
+		
+		coursesToSelected.add(c1);
+	 
+		Course temp = (Course) coursesToSelected.get(0);
+		
+		System.out.println(temp);
+	}
+	
+	public static void main(String[] args) {
+		ListTest lt = new ListTest(); 
+	}
+}

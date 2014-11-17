@@ -1,0 +1,18 @@
+package collectionDemo;
+
+import java.util.List;
+
+public class ListTest {
+	
+	public List coursesToSelected;
+
+	public ListTest(List coursesToSelected) {
+		super();
+		this.coursesToSelected = coursesToSelected;
+	}
+	
+	public void testList(){
+		
+	}
+	
+}
