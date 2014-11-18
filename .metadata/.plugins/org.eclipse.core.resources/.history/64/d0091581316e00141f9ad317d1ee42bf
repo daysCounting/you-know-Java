@@ -1,0 +1,42 @@
+package collectionDemo;
+
+import java.util.*;
+
+
+public class ListTest {
+	
+	public List coursesToSelected;
+	
+	public ListTest() {
+		super();
+		this.coursesToSelected = new ArrayList();
+	}
+	
+	public void testList(){
+		
+		Course c1 = new Course("math", 1);
+		
+		coursesToSelected.add(c1);
+		coursesToSelected.add(c1);
+		coursesToSelected.add(c1);
+		coursesToSelected.add(c1);
+
+		//Course[] courses = { new Course("chinese", 2) ,  new Course("english", 3)};
+		
+		
+		System.out.println(temp);
+	}
+	
+	public void get(){
+	 Iterator itr = coursesToSelected.iterator();
+	 for(;itr.hasNext();){
+		 System.out.println(itr.next());
+	 }
+	}
+	
+	public static void main(String[] args) {
+		ListTest lt = new ListTest(); 
+		lt.testList();
+//		lt.get();
+	}
+}

@@ -1,8 +1,4 @@
 package collectionDemo;
-/**
- *  list  中的ArrayList 类似有序数组。是最常用的一种方式。
- * @author dayscounting
- */
 
 import java.util.*;
 
@@ -45,21 +41,14 @@ public class ListTest {
 
 	}
 	public void listModify(){
-		coursesToSelected.set(3, new Course("history", 3));
+		
 	}
-   
-	public void listDelete(){
-		coursesToSelected.remove(2);
-	}
-	
+
 	public static void main(String[] args) {
 		ListTest lt = new ListTest();
 		lt.testList();
-		System.out.println();
 		lt.get();
 		System.out.println();
-		lt.listModify();
-		lt.listDelete();
 		lt.forEach();
 	}
 }
