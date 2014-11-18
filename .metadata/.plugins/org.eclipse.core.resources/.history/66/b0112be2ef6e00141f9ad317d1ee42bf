@@ -41,13 +41,6 @@ public class Student {
 		this.className = className;
 		this.courses =  new HashSet();
 	}
-	
-
-	public Student(String name, String className) {
-		super();
-		this.name = name;
-		this.className = className;
-	}
 
 	@Override
 	public String toString() {

@@ -1,0 +1,21 @@
+package collectionDemo;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapTest {
+	
+		public Map<String, Student> Students;
+
+		public MapTest(Map<String, Student> students) {
+			super();
+			this.Students = new HashMap<String, Student>();
+		}
+		
+		public void testMap(){
+		
+		}
+		}
+		
+		
+}

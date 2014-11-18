@@ -1,0 +1,9 @@
+package collectionDemo;
+
+import java.util.Map;
+
+public class MapTest {
+	
+		public Map<String, Student> Students;
+		
+}

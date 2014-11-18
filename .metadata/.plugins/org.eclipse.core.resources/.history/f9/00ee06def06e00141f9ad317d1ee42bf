@@ -1,0 +1,33 @@
+package collectionDemo;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class MapTest {
+
+	public Map<String, Student> Students;
+
+	public MapTest(Map<String, Student> students) {
+		super();
+		this.Students = new HashMap<String, Student>();
+	}
+
+	public void testMap() {
+		Scanner console = new Scanner(System.in);
+		int i =3;
+		for (int j = 0; j < i; j++) {
+			String name = console.next();
+
+			Student st = Students.get(name);
+			if (st.getClassName() == null) {
+				String className = console.next();
+				Student newStudent = new Student(name, className);
+				Students.put(name, newStudent);
+			} else {
+				System.out.println("this name is exist ");
+			}
+		}
+	}
+
+}
