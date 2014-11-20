@@ -1,0 +1,14 @@
+package Pratices;
+
+import java.util.HashSet;
+
+public class Set {
+    private Integer id;
+    private String Name;
+    private Set  kinds;
+    public Set(){
+    	this.id = id;
+    	this.Name = Name;
+    	this .kinds =  new HashSet();
+    }
+}

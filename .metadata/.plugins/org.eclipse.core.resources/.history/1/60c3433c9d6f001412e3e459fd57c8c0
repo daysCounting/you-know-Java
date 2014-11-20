@@ -1,0 +1,6 @@
+package Pratices;
+
+public class kinds {
+       private Integer id;
+       private String name;
+}

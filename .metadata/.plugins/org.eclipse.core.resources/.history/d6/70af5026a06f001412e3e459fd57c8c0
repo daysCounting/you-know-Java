@@ -1,0 +1,8 @@
+package Pratices;
+
+import java.util.List;
+
+public class listTest {
+	public List coursesToSelected;
+	
+}

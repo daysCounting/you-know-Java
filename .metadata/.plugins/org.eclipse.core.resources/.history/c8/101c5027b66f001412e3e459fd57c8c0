@@ -1,0 +1,9 @@
+package Pratices;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class setTest {
+
+	public Set<course> sc = new HashSet<course>();
+}

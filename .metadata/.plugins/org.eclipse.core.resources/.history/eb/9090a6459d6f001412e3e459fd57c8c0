@@ -1,0 +1,6 @@
+package Pratices;
+
+public class Set {
+    private Integer id;
+    private String Name;
+}

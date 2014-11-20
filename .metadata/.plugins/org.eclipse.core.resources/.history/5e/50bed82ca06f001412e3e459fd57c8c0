@@ -1,0 +1,12 @@
+package Pratices;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class listTest {
+	public List coursesToSelected;
+	
+	public listTest(){
+		this.coursesToSelected = new ArrayList();
+	}
+}

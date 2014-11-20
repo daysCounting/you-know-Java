@@ -1,0 +1,21 @@
+package Pratices;
+import java.util.HashSet;
+
+public class Set {
+	
+    private Integer id;
+    
+    private String Name;
+    
+    private Set1  kinds;
+
+	public Set(Integer id, String name, Set1 kinds) {
+		super();
+		this.id = id;
+		Name = name;
+		this.kinds = new HashSet();
+	}
+
+    
+    	
+}

@@ -1,0 +1,56 @@
+package Pratices;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Student {
+	private Integer schoolNumberInteger;
+
+	private String Name;
+
+	private Set<course> courses;
+
+	public Student() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Integer getSchoolNumberInteger() {
+		return schoolNumberInteger;
+	}
+
+	public void setSchoolNumberInteger(Integer schoolNumberInteger) {
+		this.schoolNumberInteger = schoolNumberInteger;
+	}
+
+	public String getName() {
+		return Name;
+	}
+
+	public void setName(String name) {
+		Name = name;
+	}
+
+	public Set<course> getCourses() {
+		return courses;
+	}
+
+	public void setCourses(Set<course> courses) {
+		this.courses = courses;
+	}
+
+	public Student(Integer schoolNumberInteger, String name, Set<course> courses) {
+		super();
+		this.schoolNumberInteger = schoolNumberInteger;
+		Name = name;
+		this.courses = new HashSet<course>();
+	}
+
+	@Override
+	public String toString() {
+		return "Student [schoolNumberInteger=" + schoolNumberInteger
+				+ ", Name=" + Name + ", courses=" + courses + "]";
+	}
+	
+	
+	
+}

@@ -1,0 +1,15 @@
+package Pratices;
+
+import java.util.TreeSet;
+
+public class setTree {
+	 
+	public TreeSet<course>   ts;
+	
+	public setTree(){
+		ts = new TreeSet<course>();
+	}
+	
+
+	
+}

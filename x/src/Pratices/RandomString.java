@@ -2,11 +2,12 @@ package Pratices;
 import java.util.*;
 
 public class RandomString {
-	
+	static Random r = new Random();
+	static String ssource = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	static char[] model = ssource.toCharArray();
 	public String[] randomString(int size, int length){
 		String[] za = null; 
-		String ssource = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-		char[] model = ssource.toCharArray();
+
 		for (int i = 0; i < size; i++) {
 			za[i] = randomString( length);
 		}
@@ -14,7 +15,13 @@ public class RandomString {
 	}
 	
 	public String randomString(int length) {
-		String temp = null; 
+		char[] buf = new char[length];
+		int rnd;
+		for (int i = 0; i < length; i++) {
+			rnd = Math.abs(r.nextInt()) % model.length;
+			buf[i] = model[rnd];
+		}
+		return new String(buf);
 		
 	}
 	

@@ -1,0 +1,28 @@
+package Pratices;
+
+import java.util.TreeSet;
+
+public class setTree {
+	 
+	public TreeSet<course>   ts;
+	
+	public setTree(){
+		
+		ts = new TreeSet<course>();
+	}
+	
+	public void addTest(){
+		
+course chinese = new course(1, "yuwen");
+		
+		course english = new course(2, "yingyu");
+		
+		course[] lizong  = {new course(3, "wuli")
+									  ,new course(4, "huaxue")
+									  ,new course(5, "shengwu")};
+		
+	}
+	
+
+	
+}

@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.io.RandomAccessFile"/>
 <fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
 <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="IO.Praticse.file2"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="c06.B"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Pratices.Set"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="Pratices.listTest"/>
+<fullyQualifiedTypeName name="java.util.ListIterator"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.IRObject"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
+<fullyQualifiedTypeName name="Pratices.setTest"/>
+<fullyQualifiedTypeName name="Pratices.setTree"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="Pratices.course"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>

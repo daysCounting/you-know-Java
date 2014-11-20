@@ -1,0 +1,29 @@
+package Pratices;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class listTest {
+	public List coursesToSelected;
+
+	public listTest() {
+		this.coursesToSelected = new ArrayList();
+	}
+
+	public void addTest(){
+		course chinese = new course(1, "yuwen");
+		
+		course english = new course(2, "yingyu");
+		
+		course[] lizong  = {new course(3, "wuli")
+									  ,new course(4, "huaxue")
+									  ,new course(5, "shengwu")};
+		
+		coursesToSelected.add(chinese);
+	
+		coursesToSelected.addAll(Arrays.asList(lizong));
+
+	    coursesToSelected.add(2, english);	
+	}
+}
