@@ -1,0 +1,26 @@
+package test;
+
+public class hello {
+		
+	int num1;
+	int num2;
+	public static int num3  = 34;
+	public hello() {
+		// TODO Auto-generated constructor stub
+		num1 = 13;
+	}
+	{
+		num2 = 14 ;
+	
+	}
+	static{
+		num3 = 22;
+	}
+	public static void main(String[] args) {
+		hello hi = new hello();
+		System.out.println(hi.num1);
+		System.out.println(hi.num2);
+		System.out.println(num3);
+	}
+	
+}

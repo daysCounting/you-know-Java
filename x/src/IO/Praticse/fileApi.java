@@ -14,7 +14,7 @@ public class fileApi {
 		System.out.println(file.isDirectory());
 		System.out.println(file.isFile());
 		
-		File file2 = new File("//workSpace//xixi.txt");
+		File file2 = new File("//workSpace//xixi2.txt");
 		
 		if(!file2.exists()){
 			try {

@@ -1,6 +1,10 @@
 package Pratices;
 import java.util.*;
-
+/**
+ * 
+ * @author dayscounting
+ *
+ */
 public class RandomString {
 	static Random r = new Random();
 	static String ssource = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -14,7 +18,7 @@ public class RandomString {
 		return za;
 	}
 	
-	public String randomString(int length) {
+	public static String randomString(int length) {
 		char[] buf = new char[length];
 		int rnd;
 		for (int i = 0; i < length; i++) {
@@ -27,12 +31,15 @@ public class RandomString {
 	
 	public static void main(String[] args) {
 		Random rd = new  Random();
-		byte[] bt = new byte[9];
+		byte[] bt = new byte[7];
 		rd.nextBytes(bt);
 		for (int i = 0; i < bt.length; i++) {
 			System.out.print(bt[i]+"-");
 		}
-	
+		System.out.println();
+		String string =randomString(10);
+		System.out.println(string);
+		
 	}
 	
 }
