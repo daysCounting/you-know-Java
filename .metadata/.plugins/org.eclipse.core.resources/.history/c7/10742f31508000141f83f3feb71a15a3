@@ -1,0 +1,8 @@
+package test;
+
+import IO.Praticse.inputStreamU;
+
+public class testIO {
+	inputStreamU a = new inputStreamU();
+    
+}

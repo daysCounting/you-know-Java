@@ -1,0 +1,15 @@
+package IO.Praticse;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+/**
+ * 输入流:字节流， 字符流
+ * @author dayscounting
+ * 
+ **/
+public class inputStream {
+		public void inputFile(File file){
+				FileInputStream in = new FileInputStream(file);
+		}
+}

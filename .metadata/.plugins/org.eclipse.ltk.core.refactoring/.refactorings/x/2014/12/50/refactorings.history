@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;IO.Praticse.inputStream&apos; to &apos;inputStreamU&apos;&#x0A;- Original project: &apos;x&apos;&#x0A;- Original element: &apos;IO.Praticse.inputStream&apos;&#x0A;- Renamed element: &apos;IO.Praticse.inputStreamU&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;inputStream&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;IO.Praticse{inputStream.java[inputStream" matchStrategy="1" name="inputStreamU" qualified="false" references="true" similarDeclarations="false" stamp="1418203954541" textual="false" version="1.0"/>
+</session>

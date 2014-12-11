@@ -1,0 +1,29 @@
+package IO.Praticse;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+
+/**
+ * 输入流:字节流， 字符流
+ * @author dayscounting
+ * 
+ **/
+public class inputStreamU {
+	   public inputStreamU() {
+		// TODO Auto-generated constructor stub
+	}
+		public void inputFile(File file) throws IOException{
+			System.out.println("111");
+				FileInputStream in = new FileInputStream(file);
+				int i ;
+				int b = 1;
+				while((i = in.read())!= -1){
+					System.out.print(Integer.toHexString(b));
+					if(b++ %10 == 0){
+						System.out.println();
+					}
+				}
+		}
+}

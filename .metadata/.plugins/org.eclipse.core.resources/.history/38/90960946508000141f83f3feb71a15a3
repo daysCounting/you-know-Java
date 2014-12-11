@@ -1,0 +1,11 @@
+package test;
+
+import IO.Praticse.inputStreamU;
+
+public class testIO {
+	public static void main(String[] args) {
+		inputStreamU a = new inputStreamU();
+		a.inputFile("//workSpace//xixi2.txt");
+	}
+    
+}
